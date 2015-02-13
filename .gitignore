@@ -1,5 +1,18 @@
 *.class
 
+## IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+target/
+
+## Mac
+.DS_Store
+
+*.log
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
