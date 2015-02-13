@@ -26,8 +26,14 @@ and [sonar.properties](https://gist.github.com/aeells/6e0c3d3dab551cd20e1a#file-
 
 ```$ sonar console```
 
-# Usage
+## Usage
 
 ```$ mvn -B clean verify -pl system-under-test -Pcoverage```
 
 ```$ mvn -o sonar:sonar -pl system-under-test```
+
+## Result
+
+Browse to [localhost:9000](http://localhost:9000) and if you have added the 'Integration Tests Coverage' widget to the dashboard you should see separate unit and integration test results.
+
+![Separate unit and integration test coverage results visible in Sonar.](system-under-test/src/main/resources/unit-integration-test-coverage.png)
