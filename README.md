@@ -1,5 +1,7 @@
-# failsafe-jacoco-sonar-ri
+# jacoco-sonar-ri
 Maven failsafe plugin, Jacoco code coverage and Sonar reference implementation.
+It is often tricky to retro-fit Jacoco code coverage into an existing multi-module maven project, 
+this reference implementation might make it clearer what is required. 
 
 ## Reference 
 Further to Arnaud Héritier's post ['Maven, failsafe, sonar and Jacoco are in a boat...'](http://www.aheritier.net/maven-failsafe-sonar-and-jacoco-are-in-a-boat/)
@@ -23,7 +25,7 @@ Example [sonar.properties](https://gist.github.com/aeells/6e0c3d3dab551cd20e1a#f
 
 # Usage
 
-```$ mvn -B clean verify -pl dropwizard -Psonar```
+```$ mvn -B clean verify -pl system-under-test -Pcoverage```
 
-```$ mvn -o sonar:sonar -pl dropwizard```
+```$ mvn -o sonar:sonar -pl system-under-test```
 
