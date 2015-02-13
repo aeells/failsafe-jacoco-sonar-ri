@@ -8,7 +8,7 @@ This reference implementation should make it clearer exactly what is required wi
 <em>All of the required configuration is in the system-under-test maven modules' [pom.xml](system-under-test/pom.xml) file for reference.</em>
 
 ## Reference 
-Further to Arnaud Héritier's post ['Maven, failsafe, sonar and Jacoco are in a boat...'](http://www.aheritier.net/maven-failsafe-sonar-and-jacoco-are-in-a-boat/)
+Further to Arnaud Héritier's excellent post ['Maven, failsafe, sonar and Jacoco are in a boat...'](http://www.aheritier.net/maven-failsafe-sonar-and-jacoco-are-in-a-boat/)
 
 ## System
 Mac OS X 10.10.1
