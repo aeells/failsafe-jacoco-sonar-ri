@@ -8,14 +8,22 @@ Further to Arnaud Héritier's post ['Maven, failsafe, sonar and Jacoco are in a 
 Mac OS X 10.10.1
 
 ## Requirements
+
 ```$ brew install mysql sonar sonar-runner```
+
 ```$ vim /usr/local/Cellar/sonar-runner/2.4/libexec/conf/sonar-runner.properties```
+
 Example [sonar-runner.properties](https://gist.github.com/aeells/96ede82d2b429a7a5d05#file-sonar-runner-properties) file for running MySQL on localhost 
+
 ```$ vim /usr/local/Cellar/sonar/5.0/libexec/conf/sonar.properties```
+
 Example [sonar.properties](https://gist.github.com/aeells/6e0c3d3dab551cd20e1a#file-sonar-properties) file for running MySQL on localhost 
+
 ```$ sonar console```
 
 # Usage
+
 ```$ mvn -B clean verify -pl dropwizard -Psonar```
+
 ```$ mvn -o sonar:sonar -pl dropwizard```
 
