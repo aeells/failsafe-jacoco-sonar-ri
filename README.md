@@ -1,7 +1,10 @@
 # jacoco-sonar-ri
 Maven failsafe plugin, Jacoco code coverage and Sonar reference implementation.
+
 It is often tricky to retro-fit Jacoco code coverage into an existing multi-module maven project, 
 this reference implementation might make it clearer what is required. 
+
+<em>All of the required configuration is in the system-under-test maven modules' [pom.xml](system-under-test/pom.xml) file for reference.</em>
 
 ## Reference 
 Further to Arnaud Héritier's post ['Maven, failsafe, sonar and Jacoco are in a boat...'](http://www.aheritier.net/maven-failsafe-sonar-and-jacoco-are-in-a-boat/)
